@@ -256,11 +256,18 @@ body {
 .block-gallery {
    height: 273px;
    flex: 0 1 273px;
+   overflow: hidden;
 }
 
 .block-gallery img {
    max-width: 100%;
    object-fit: cover;
+   transition: all 1s ease;
+}
+
+.block-gallery:hover img {
+   cursor: pointer;
+   transform: scale(1.2);
 }
 
 .what-else .wrap {
