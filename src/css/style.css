@@ -287,9 +287,8 @@ body {
 
 .footer-block {
    display: inline-block;
-   max-width: 33.333%;
+   width: 33.333%;
    font-size: 13px;
-   padding-right: 10%;
    vertical-align: top;
 }
 
@@ -299,14 +298,10 @@ body {
    font-size: 16px;
 }
 
-.footer p {
+.footer__item:not(:last-child) {
    margin-bottom: 10px;
 }
 
-.footer p:last-child {
-   margin-bottom: 0;
-}
-
-.footer a {
+.footer__link {
    color: #fff;
 }
