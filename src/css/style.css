@@ -172,8 +172,15 @@ body {
    padding: 15px 40px;
    border-radius: 5px;
    color: white;
-   box-shadow: 1px 1px 15px white;
+   box-shadow: 0px 0px 5px 3px white;
    margin-right: 20px;
+   transition: all 0.5s ease;
+}
+
+.btn-success:hover {
+   background: #fff;
+   color: #f15921;
+   box-shadow: 0px 0px 5px 3px;
 }
 
 .btn-more {
@@ -184,6 +191,13 @@ body {
    border: 2px solid #f15921;
    border-radius: 5px;
    padding: 13px 40px;
+   transition: all 0.5s ease;
+}
+
+.btn-more:hover {
+   background: #f15921;
+   color: #fff;
+   box-shadow: 0px 0px 5px 3px #f15921;
 }
 
 .delivery {
@@ -271,11 +285,19 @@ body {
 }
 
 .what-else-button {
-   max-width: 150px;
-   max-height: 40px;
+   font-size: 14px;
    background: #fff;
    color: #f15921;
    border: 2px solid #f15921;
+   border-radius: 5px;
+   padding: 10px 35px;
+   transition: all 1s ease;
+}
+
+.what-else-button:hover {
+   background: #f15921;
+   color: #fff;
+   box-shadow: 0px 0px 5px 3px #f15921;
 }
 
 .footer {
