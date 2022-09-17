@@ -56,24 +56,6 @@ body {
    padding: 0px 15px;
 }
 
-@media (max-width:1200px) {
-   .container {
-      max-width: 970px;
-   }
-}
-
-@media (max-width:992px) {
-   .container {
-      max-width: 750px;
-   }
-}
-
-@media (max-width:767px) {
-   .container {
-      max-width: none;
-   }
-}
-
 .hero {
    background: #ffffff;
    padding: 0px 0 70px;
@@ -87,20 +69,6 @@ body {
    background: #888889;
    height: 50px;
    font-size: 18px;
-}
-
-@media (max-width:992px) {
-   .menu {
-      height: 35px;
-      font-size: 16px;
-   }
-}
-
-@media (max-width:767px) {
-   .menu {
-      height: 25px;
-      font-size: 14px;
-   }
 }
 
 .menu li {
@@ -155,6 +123,7 @@ body {
 .discription {
    text-align: justify;
    font-size: 16px;
+   padding-right: 25px;
 }
 
 .price {
@@ -341,4 +310,331 @@ body {
 
 .footer__link {
    color: #fff;
+}
+
+@media (min-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+   .hero {
+   background: #ffffff;
+   padding: 0px 0 30px;
+   }
+
+   .menu {
+      margin-bottom: 30px;
+   }
+
+   .main-text {
+      padding-left: 45px;
+   }
+
+   .main-image {
+      padding: 45px;
+   }
+
+   .main-image img {
+      max-width: 100%;
+   }
+
+   .undertitle, .discription, .price {
+      margin-bottom: 15px;
+   }
+
+   .title {
+      font-size: 35px;
+   }
+
+   .undertitle {
+      font-size: 20px;
+   }
+
+   .discription {
+      font-size: 14px;
+   }
+
+   .price {
+      font-size: 25px;
+      margin-bottom: 35px;
+   }
+
+   .btn-success {
+      padding: 10px 20px;
+      margin-right: 10px;
+   }
+
+   .btn-more {
+      padding: 10px 20px;
+   }
+   
+   .section {
+      padding: 30px 0;
+   }
+
+   .section-title {
+      font-size: 25px;
+   }
+
+   .wrap {
+      margin-top: 25px;
+   }
+
+   .block img {
+      max-height: 25px;
+   }
+
+   .block-text {
+      font-size: 12px;
+      padding: 0 10px;
+      margin-top: 15px;
+   }
+
+   .gallery .wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .block-gallery {
+      height: 170px;
+      flex: 0 1 170px;
+   }
+
+   .block-what-else {
+      padding: 0 10px;
+   }
+
+   .block-what-else img {
+      max-width: 60%;
+   }
+
+   .what-else-price {
+      font-size: 14px;
+   }
+
+   .what-else-button {
+      padding: 5px 25px;
+   }
+}
+
+@media (max-width:768px) {
+   .hero {
+   background: #ffffff;
+   padding: 0px 0 30px;
+   }
+
+   .menu {
+      margin-bottom: 30px;
+   }
+
+   .main-text {
+      padding-left: 45px;
+   }
+
+   .main-image {
+      padding: 45px;
+   }
+
+   .main-image img {
+      max-width: 100%;
+   }
+
+   .undertitle, .discription, .price {
+      margin-bottom: 15px;
+   }
+
+   .title {
+      font-size: 35px;
+   }
+
+   .undertitle {
+      font-size: 20px;
+   }
+
+   .discription {
+      font-size: 14px;
+   }
+
+   .price {
+      font-size: 25px;
+      margin-bottom: 35px;
+   }
+
+   .btn-success {
+      padding: 10px 20px;
+      margin-right: 10px;
+   }
+
+   .btn-more {
+      padding: 10px 20px;
+   }
+   
+   .section {
+      padding: 30px 0;
+   }
+
+   .section-title {
+      font-size: 25px;
+   }
+
+   .wrap {
+      margin-top: 25px;
+   }
+
+   .block img {
+      max-height: 25px;
+   }
+
+   .block-text {
+      font-size: 12px;
+      padding: 0 10px;
+      margin-top: 15px;
+   }
+
+   .gallery .wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .block-gallery {
+      height: 170px;
+      flex: 0 1 170px;
+   }
+
+   .block-what-else {
+      padding: 0 10px;
+   }
+
+   .block-what-else img {
+      max-width: 60%;
+   }
+
+   .what-else-price {
+      font-size: 14px;
+   }
+
+   .what-else-button {
+      padding: 5px 25px;
+   }
+
+}
+
+@media (max-width:479px) {
+
+   .menu {
+      margin-bottom: 20px;
+      height: 40px;
+      font-size: 14px;
+   }
+
+   .menu li {
+      margin-right: 20px;
+   }
+
+   .main {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .main-text {
+      max-width: 100%;
+      padding-left: 25px;
+   }
+
+   .main-image {
+      padding: 10px;
+      max-width: 60%;
+   }
+
+   .main-image img {
+      max-width: 100%;
+   }
+
+   .title {
+      font-size: 25px;
+   }
+
+   .undertitle {
+      font-size: 16px;
+   }
+
+   .discription {
+      font-size: 14px;
+   }
+
+   .price {
+      font-size: 18px;
+      margin-bottom: 25px;
+   }
+
+   .btn-success {
+      padding: 5px 10px;
+      margin-right: 5px;
+      font-size: 14px;
+   }
+
+   .btn-more {
+      padding: 4px 10px;
+      font-size: 14px;
+   }
+   
+   .section {
+      padding: 30px 0;
+   }
+
+   .section-title {
+      font-size: 20px;
+   }
+
+   .wrap {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+   }
+
+   .block {
+      max-width: 45%;
+   }
+
+   .block-text {
+      font-size: 12px;
+      padding: 0 10px;
+      margin-top: 15px;
+   }
+
+   .gallery .wrap {
+      gap: 10px;
+   }
+
+   .block-gallery {
+      height: 160px;
+      flex: 1 1 160px;
+   }
+
+   .block-what-else {
+      text-align: center;
+      max-width: 46%;
+      padding: 0 15px;
+   }
+
+   .block-what-else img {
+      max-width: 80%;
+   }
+
+   .what-else-price {
+      font-size: 14px;
+   }
+
+   .what-else-button {
+      padding: 5px 15px;
+   }
 }
