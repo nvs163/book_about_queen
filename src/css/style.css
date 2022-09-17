@@ -245,14 +245,22 @@ body {
    background: #ffffff;
 }
 
+.gallery .wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+
 .block-gallery {
-   display: inline-block;
-   max-width: 25%;
-   padding: 5px;
+   height: 273px;
+   flex: 0 1 273px;
 }
 
 .block-gallery img {
    max-width: 100%;
+   object-fit: cover;
 }
 
 .what-else .wrap {
